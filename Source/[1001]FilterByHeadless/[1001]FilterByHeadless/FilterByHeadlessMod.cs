@@ -11,18 +11,6 @@ using Verse;
 
 namespace _1001_FilterByHeadless
 {
-    public class HeadlessModSettings : ModSettings
-    {
-
-    }
-    public class FilterByHeadlessMod : Mod
-    {
-        public FilterByHeadlessMod(ModContentPack content) : base(content) 
-        {
-            //this.settings = GetSettings<>
-        }
-    }
-
     public class SpecialThingFilterWorker_FilterByHeaded : SpecialThingFilterWorker
     {
         public override bool Matches(Thing t)
