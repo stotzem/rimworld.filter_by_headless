@@ -16,7 +16,7 @@ namespace _1001_FilterByHeadless
         public override bool Matches(Thing t)
         {
             Corpse corpse = t as Corpse;
-            if(corpse.InnerPawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).Any((BodyPartRecord p) => p.def == BodyPartDefOf.Head))
+            if(corpse != null && corpse.InnerPawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).Any((BodyPartRecord p) => p.def == BodyPartDefOf.Head))
             {
                 return true;
             }
@@ -29,7 +29,7 @@ namespace _1001_FilterByHeadless
         public override bool Matches(Thing t)
         {
             Corpse corpse = t as Corpse;
-            if (corpse.InnerPawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).Any((BodyPartRecord p) => p.def == BodyPartDefOf.Head))
+            if (corpse != null && corpse.InnerPawn.health.hediffSet.GetNotMissingParts(BodyPartHeight.Undefined, BodyPartDepth.Undefined, null, null).Any((BodyPartRecord p) => p.def == BodyPartDefOf.Head))
             {
                 return false;
             }
