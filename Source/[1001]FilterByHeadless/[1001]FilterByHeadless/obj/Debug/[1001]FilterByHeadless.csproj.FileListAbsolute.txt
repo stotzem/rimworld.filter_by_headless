@@ -1,4 +1,0 @@
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[1001]FilterByHeadless\Source\[1001]FilterByHeadless\[1001]FilterByHeadless\obj\Debug\[1001]FilterByHeadless.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[1001]FilterByHeadless\Assemblies\[1001]FilterByHeadless.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[1001]FilterByHeadless\Source\[1001]FilterByHeadless\[1001]FilterByHeadless\obj\Debug\[1001]FilterByHeadless.dll
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\[1001]FilterByHeadless\Source\[1001]FilterByHeadless\[1001]FilterByHeadless\obj\Debug\[1001]FilterByHeadless.csproj.AssemblyReference.cache

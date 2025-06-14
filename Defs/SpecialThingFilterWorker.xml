@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<SpecialThingFilterDef>
-		<defName>AllowHeaded</defName>
-		<label>Allow corpses with heads.</label>
-		<description>Allow corpses with heads.</description>
-		<parentCategory>CorpsesHumanlike</parentCategory>
-		<allowedByDefault>true</allowedByDefault>
-		<saveKey>AllowHeadedCorpses</saveKey>
-		<workerClass>_1001_FilterByHeadless.SpecialThingFilterWorker_FilterByHeaded</workerClass>
-	</SpecialThingFilterDef>
-	
-	<SpecialThingFilterDef>
-		<defName>AllowHeadless</defName>
-		<label>Allow headless corpses.</label>
-		<description>Allow corpses without valid heads.</description>
-		<parentCategory>CorpsesHumanlike</parentCategory>
-		<allowedByDefault>true</allowedByDefault>
-		<saveKey>AllowHeadlessCorpses</saveKey>
-		<workerClass>_1001_FilterByHeadless.SpecialThingFilterWorker_FilterByHeadless</workerClass>
-	</SpecialThingFilterDef>
+    <SpecialThingFilterDef>
+        <defName>AllowHeaded</defName>
+        <label>Allow corpses with heads.</label>
+        <description>Allow corpses with heads.</description>
+        <parentCategory>CorpsesHumanlike</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>AllowHeadedCorpses</saveKey>
+        <workerClass>FilterByHeadless.SpecialThingFilterWorkerFilterByHeaded</workerClass>
+    </SpecialThingFilterDef>
+
+    <SpecialThingFilterDef>
+        <defName>AllowHeadless</defName>
+        <label>Allow headless corpses.</label>
+        <description>Allow corpses without valid heads.</description>
+        <parentCategory>CorpsesHumanlike</parentCategory>
+        <allowedByDefault>true</allowedByDefault>
+        <saveKey>AllowHeadlessCorpses</saveKey>
+        <workerClass>FilterByHeadless.SpecialThingFilterWorkerFilterByHeadless</workerClass>
+    </SpecialThingFilterDef>
 </Defs>
