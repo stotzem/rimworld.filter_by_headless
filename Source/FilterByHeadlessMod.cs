@@ -4,7 +4,7 @@ using Verse;
 
 namespace FilterByHeadless
 {
-    public class SpecialThingFilterWorkerFilterByHeaded : SpecialThingFilterWorker
+    public class FilterByHeaded : SpecialThingFilterWorker
     {
         public override bool Matches(Thing t)
         {
@@ -14,7 +14,7 @@ namespace FilterByHeadless
         }
     }
 
-    public class SpecialThingFilterWorkerFilterByHeadless : SpecialThingFilterWorker
+    public class FilterByHeadless : SpecialThingFilterWorker
     {
         public override bool Matches(Thing t)
         {

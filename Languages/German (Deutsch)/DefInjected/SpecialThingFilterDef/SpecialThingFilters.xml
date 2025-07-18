@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
-  <AllowHeaded.label>Erlaube mit Schädel</AllowHeaded.label>
-  <AllowHeaded.description>Erlaube Leichen mit Schädel</AllowHeaded.description>
-  <AllowHeadless.label>Erlaube ohne Schädel</AllowHeadless.label>
-  <AllowHeadless.description>Erlaube Leichen ohne Schädel</AllowHeadless.description>
+    <AllowHeaded.label>Erlaube mit Schädel</AllowHeaded.label>
+    <AllowHeaded.description>Erlaube Leichen mit Schädel</AllowHeaded.description>
+    <AllowHeadless.label>Erlaube ohne Schädel</AllowHeadless.label>
+    <AllowHeadless.description>Erlaube Leichen ohne Schädel</AllowHeadless.description>
 </LanguageData>

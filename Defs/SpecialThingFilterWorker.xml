@@ -7,7 +7,7 @@
         <parentCategory>CorpsesHumanlike</parentCategory>
         <allowedByDefault>true</allowedByDefault>
         <saveKey>AllowHeadedCorpses</saveKey>
-        <workerClass>FilterByHeadless.SpecialThingFilterWorkerFilterByHeaded</workerClass>
+        <workerClass>FilterByHeadless.FilterByHeaded</workerClass>
     </SpecialThingFilterDef>
 
     <SpecialThingFilterDef>
@@ -17,6 +17,6 @@
         <parentCategory>CorpsesHumanlike</parentCategory>
         <allowedByDefault>true</allowedByDefault>
         <saveKey>AllowHeadlessCorpses</saveKey>
-        <workerClass>FilterByHeadless.SpecialThingFilterWorkerFilterByHeadless</workerClass>
+        <workerClass>FilterByHeadless.FilterByHeadless</workerClass>
     </SpecialThingFilterDef>
 </Defs>

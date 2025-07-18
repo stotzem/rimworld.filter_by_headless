@@ -2,7 +2,7 @@
 /shelf/
 /workspace.xml
 # Rider ignored files
-/contentModel.xml
-/.idea.FilterByHeadless.iml
-/projectSettingsUpdater.xml
 /modules.xml
+/contentModel.xml
+/projectSettingsUpdater.xml
+/.idea.FilterByHeadless.iml

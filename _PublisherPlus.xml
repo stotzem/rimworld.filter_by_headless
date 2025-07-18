@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+    <Excluded>
+        <exclude>.git</exclude>
+        <exclude>.idea</exclude>
+        <exclude>Assemblies/FilterByHeadless.pdb</exclude>
+        <exclude>FilterByHeadless.csproj</exclude>
+        <exclude>FilterByHeadless.sln</exclude>
+        <exclude>obj</exclude>
+        <exclude>Source</exclude>
+    </Excluded>
+</Configuration>
